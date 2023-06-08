@@ -1,0 +1,418 @@
+    body {
+    background-image: url("./img/backgt.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .cont1 {   
+    width: 100%;
+}
+.b1 {
+    font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.b1:hover{
+    transform: translate(5px, -5px);
+}
+.main-menu{
+    display: block;
+    position: fixed;
+    margin-left: 150px;
+}
+
+.main-menua a{
+    display: flex;
+    margin-left: 10px;
+
+}
+.main-menua a button:hover{
+  color: green;  
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-menu li button:hover{
+  color: red;  
+}
+.cont-header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img{
+    display: block;
+    height: 100px;
+    overflow: auto;
+}
+
+.logo-img img{
+    width: 100%;
+}
+.imag {
+    background: none;
+    display: block;
+    cursor: pointer;
+    color: white;
+        position: fixed;
+}
+.img-button{
+    background: none;
+    display: flex;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+
+}
+.spisokv {
+    display: none;
+        position: fixed;
+
+}
+.drop {
+    height: 10%;
+}
+.drop:hover .spisokv {
+
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+.spisokv a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+.spisokv a:hover {
+    background-color: red;
+}
+.vvod {
+    width: 100%;
+    height: 200px;
+    text-align: center;  
+}
+.text1 {
+    color: white;
+}
+.but-text {
+   font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+  transition: transform 0.5s;
+}
+.but-text2:hover {
+    color:red;
+}
+.but-text2 {
+   font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+  transition: transform 0.5s;
+}
+.btn {
+    font-family: Arial;
+    color: #ffffff; 
+    font-size: 14px;
+    background: red;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: border-radius 0.3s;
+}
+.btn:hover{
+    border-radius: 8px;
+    background-color: white;
+    color: red;
+}
+.vvod2 {
+     width: 24%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+.input1 {
+    padding: 10px 20px 10px 20px;
+}
+.video1{
+    width: 848px;
+    margin: 0 auto; 
+    align-items: center;
+}
+    .inizial{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 60px;
+    font-size: 25px;
+}
+.social {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px 0;
+    float: center;
+        list-style: none;
+}
+.block_sotrudnik {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.volupavum {
+    background: #4fa1ff9c;
+    margin: 4px;
+    margin-bottom: 50px;
+    width: 315px;
+    padding: 18px;
+    line-height: 20px;
+    color: #888dad;
+    border-radius: 20px;
+}
+p.role {
+    color: #ff00008d;
+    margin: 10px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.volupavum h3 {
+    color: black;
+    font-size: 26px;
+    margin-top: 50px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.volupavum img {
+    width: 269px;
+    height: 200px;
+}
+.san{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul{
+  list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+.faisb{
+  width:40; 
+  height:40;
+ }  
+ .imag{
+  display: none;
+ }
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+@media only screen and  (max-width:1400px) {
+  ul.main-menu{
+      display: none;
+  }
+  .imag{
+    display:block;
+  }
+  .vvod2 {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+body {
+    background-image: url("./img/DOTA_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+.bergerr{
+  display: none;
+}
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+.menu__btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #87f0f5a6;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+@media only screen and  (max-width:1400px) {
+  ul.main-menu{
+      display: none;
+  }
+  .imag{
+    display:block;
+  }
+  .vvod2 {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+body {
+    background-image: url("./img/DOTA_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .bergerr{
+    display: block;
+  }
+}

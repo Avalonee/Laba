@@ -1,0 +1,16 @@
+@media only screen and (max-width:1400){
+    body {
+    display: none;
+    background-image: url("https://avatars.mds.yandex.net/i?id=eb2e444a002ca60c65fc37332afca76892fc8d1f-8223678-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+}
+  
+
+@media all and (max-width:1400){
+    .cont-header{
+        display: none;
+    }
+}
